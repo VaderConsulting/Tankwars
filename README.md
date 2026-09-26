@@ -1,14 +1,30 @@
 # Tankwars
 
-VB6 3D Tank Wars demo (`3DTank.exe` by Mark Burgess / Magic Mushroom): mouse-drive a tank, click to fire, select levels; early 3D tank/planes sample (Start + 3DTank forms). Open `3dtank.vbp` (or `Start.vbp`) in the VB6 IDE.
+VB6 3D Tank Wars game (`3DTank.exe`) by Mark Burgess / Magic Mushroom Software: pick a level, move the mouse to drive your tank, and click to fire; levels (`.dat`) and 3D models (`.3d`) are plain files so you can build your own. `Start.vbp` is a small start/menu companion. Open `3dtank.vbp` in the VB6 IDE.
 
-**Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
-
-_Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip transfer; date above uses best available evidence (headers/copyright where helpful)._
+**Source last updated:** 2001-05-06 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
 ## Solution structure
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `Project1` (`3dtank.vbp`) | VB6 | WinForms exe | 3D Tank Wars game demo |
-| `Start` (`Start.vbp`) | VB6 | WinForms exe | Tankwars start/menu companion |
+| `Project1` (`3dtank.vbp`) | VB6 | WinForms exe | 3D Tank Wars game |
+| `Project1` (`Start.vbp`) | VB6 | WinForms exe | Tankwars start/menu companion |
+
+## How to open
+
+Open the `.vbp` in Visual Basic 6.0 IDE:
+- `3dtank.vbp`
+- `Start.vbp`
+
+## Requirements
+
+- Visual Basic 6.0 IDE
+
+## Attribution and provenance
+
+Original author Mark Burgess (company field: Mark Burgess --- Magic Mushroom Software Co; `Start.vbp` company field: Stafford College). See `Very Rushed ReadMe.txt`. Working copy from my Historical Dev folder `VB/Old/Tankwars`.
+
+## License
+
+No original license was supplied; the author's readme asks that his name stays on the code. Not relicensed as MIT. See `THIRD_PARTY_NOTICES.md`.
